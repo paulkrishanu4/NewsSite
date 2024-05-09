@@ -1,0 +1,25 @@
+.square img{
+  min-height:200px;
+  min-width:250px;
+}
+
+.square{
+  min-width:300px;
+  padding:25px;
+  text-align: center;
+  border:2px solid black;
+  margin:20px;
+  max-width: 100%;
+}
+button{
+  background:blue;
+  color:white;
+  width:120px;
+  height:30px;
+  margin:4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
