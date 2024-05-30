@@ -4,6 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { TiThMenu } from "react-icons/ti";
 import { Secondbar } from './Secondbar.jsx';
 
+
 export const Navbar = ({setCategory,setFind}) => {
   const [colour,setColour] = useState("");
   const [colour1,setColour1] = useState("");
@@ -11,6 +12,7 @@ export const Navbar = ({setCategory,setFind}) => {
   const [colour3,setColour3] = useState("");
   const [colour4,setColour4] = useState("");
   const [colour5,setColour5] = useState("");
+
   const [inputvalue,setInputValue] = useState("");
   const [menu,setMenu] = useState(false);
   const handleInputChange = (event) => {
@@ -28,7 +30,7 @@ export const Navbar = ({setCategory,setFind}) => {
   return (
     <>
     <div className="header">
-      <img src="./images/n_logo.jpg"></img>
+    <img src="./images/n_logo.jpg"></img>
       <ul>
         <li onClick={()=>{setCategory("business"); setColour("white"); setColour1("");setColour2("");setColour3("");setColour4("");setColour5("");}}  style={{ color: colour }}>Business</li>
 

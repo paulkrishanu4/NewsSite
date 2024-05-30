@@ -7,13 +7,9 @@ import './News.css';
 export const News = ({title,description,src,url}) => {
   const [value, setValue] = useState('');
   const { speak } = useSpeechSynthesis();
-  const array=[];
-  var x=0;
+ 
 
-  function funone(){
-    array[x++]=title;
-    console.log(array[x-1]);
-  }
+ 
   
 
   useEffect(()=>{

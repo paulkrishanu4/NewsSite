@@ -7,6 +7,7 @@ import { Newsboard } from './assets/Components/Newsboard';
 import { useState } from 'react';
 
 
+
 function App() {
   
   const [category,setCategory] = useState("general");
@@ -18,7 +19,9 @@ function App() {
     <div className="container">
     <Navbar setCategory={setCategory} setFind={setFind}></Navbar> 
     <Country setcountry={setcountry}></Country>
+
     <Newsboard category={category} country={country} find={find}></Newsboard>
+    
     </div>
     
   )
